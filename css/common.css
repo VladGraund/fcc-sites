@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: rgba(191, 154, 224, 0.932);
+}
+
+img {
+    display: block;
+    width: 100%;
+  }
+
+.container{
+    max-width: 980px;
+    margin: auto;
+}

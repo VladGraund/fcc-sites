@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Noto+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="conteiner">
+        <div class="navbar-main">
+          <h1>Квіточки!</h1>
+        </div>
+        <div class="navbar-other">
+            <a href="#goods" class="nav-link">Товари</a>
+            <a href="#about" class="nav-link">Про нас</a>
+            <a href="#video" class="nav-link">Відео</a>
+            <a href="#questions" class="nav-link">Є запитання?</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="goods" id="goods">
+        <h2 class="goods-title title">Наші товари:</h2>
+        <article class="goods-card">
+          <div class="goods-card-item">
+            <p class="goods-item">Ромашки</p>
+            <img class="goods-image" src="img/daisides.jpg" alt="daisides">
+            <p class="goods-discription">Чудові весняні квіточки які дають багато веселих емоцій</p>
+            <p class="goods-price">10.99$</p>
+            </div>
+        </article>
+        <article class="goods-card">
+          <div class="goods-card-item">
+          <p class="goods-item">Піони</p>
+          <img class="goods-image" src="img/peony.jpg" alt="peony">
+          <p class="goods-discription">Більші аніж інші квіти, що дають більше об'ємності букету і радості</p>
+          <p class="goods-price">17.99$</p>
+          </div>
+        </article>
+        <article class="goods-card">
+          <div class="goods-card-item">
+          <p class="goods-item">Тюльпани</p>
+          <img class="goods-image" src="img/tulips.jpg" alt="tulips">
+          <p class="goods-discription">Прекрасні квіти які завжди гріють сердце на 8 березня і просто в звичайні дні</p>
+          <p class="goods-price">15.99$</p>
+          <`
+        </div>
+    </section>
+      <section class="about-us" id="about">
+        <h2 class="about-us-title title">Про нас</h2>
+        <p class="about-us-text">
+        Ми є магазином якому вже навіть декілька секунд немає, та і в ній тільки
+        один робітник (тобто я), але все ж вважаю що мій магазин вам
+        сподобається, і я зроблю цей сайт хоча б трішки нормальним, Амінь
+        </p>
+        </section>
+        <h2 class="video-title title">Випадкове відео про квіточки</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/r_Wy518rEK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <div class="questions" id="questions">
+            <h2 class="questions-title title">З'явились запитання? Пишіть на нашу пошту</h2>
+            <div class="email">
+              <a href="#">awesomeflowers@gmail.com</a>
+            </div>
+            <h2 class="youremail title">Також напишіть свій емейл щоб ми з вами зв'язались</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">    
+           <div class="form">
+                <input type="email" name="email" id="email" placeholder="your email" required>         
+                <button type="submit" id="submit">Зв'язатись з вами</button>
+            </form>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>

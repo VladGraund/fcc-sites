@@ -1,0 +1,48 @@
+.goods-card {
+  border: 1px solid black;
+  border-radius: 5%;
+  max-width: 400px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+}
+
+.goods-image {
+  width: 350px;
+  margin: 25px;
+  border-radius: 50%;
+}
+
+.goods-item {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.goods-discription {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  padding: 1px;
+}
+
+.goods-price {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.goods-card-item {
+  display: block;
+}
+
+@media (min-width:680px){
+  .goods-card{
+    display: grid;
+    position: relative;
+  }
+}
