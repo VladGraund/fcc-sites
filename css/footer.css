@@ -1,7 +1,6 @@
 .form {
   padding: 10px;
   margin: 10px;
-  display: -moz-inline-stack;
   text-align: center;
 }
 
@@ -9,4 +8,10 @@
   color: aliceblue;
   font-family: noto-sans, sans-serif;
   text-align: center;
+}
+
+@media (max-width: 320px){
+    .form{
+      object-fit: contain;
+    }
 }
